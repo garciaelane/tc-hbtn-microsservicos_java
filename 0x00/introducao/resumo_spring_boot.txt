@@ -14,4 +14,4 @@ Observabilidade - o Spring Boot Actuator é poderoso, fornece verificação de i
 IntelliJ
 
 5. O que é Spring Initializr?
-é uma interface WEB simples fornecida pelo Spring Boot que possibilita a interação com o usuário.
+É uma interface WEB simples fornecida pelo Spring Boot que possibilita a interação com o usuário.
