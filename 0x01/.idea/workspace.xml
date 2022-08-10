@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d3cc3ce-5009-4b0f-9b8d-743ba867001b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_boot_1/com/example/demo/RestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/src/main/java/com/example/Demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/src/test/java/com/example/Demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/src/main/java/com/example/Demo2/Demo2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo2/src/test/java/com/example/Demo2/Demo2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_boot_1/com/example/demo/MessageResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_1/com/example/demo/MessageResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +54,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/elanegarcia/reposTechCamps/tc-hbtn-microsservicos_java/0x01/spring_boot_1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/elanegarcia/reposTechCamps/tc-hbtn-microsservicos_java/Demo2",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="spring_boot_1.com.example.demo" />
@@ -84,5 +108,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
