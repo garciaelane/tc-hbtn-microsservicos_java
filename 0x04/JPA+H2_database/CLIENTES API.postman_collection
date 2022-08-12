@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "a2a853df-2d5f-4aa2-8809-57525c673a5a",
+		"name": "CLIENTES API.postman_collection",
+		"description": "![](https://raw.githubusercontent.com/SajalChaplot/test/main/Collection-documentation-intro.svg)\n\n## Hi 👋\n\nWe created this collection for you to test how API requests are sent and organized within Postman.\n\nFollow this step-by-step demo to learn the different requests you can send using Postman.\n\n#### First Step : Get all customers' data\n\nSelect the first request, `'Get all customers'` and press the Send button next to the API URL.\n\n* * *\n\n##### 💡 Tip: Keeping your API endpoints inside a collection helps you:\n\n*   Keep unrelated API endpoints separate.\n*   Share requests with your teammates\n*   Reuse authentication, variables, tests and more for different requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21781474"
+	},
+	"item": [
+		{
+			"name": "ADD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/addClient",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"addClient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND_ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/findAllClients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"findAllClients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND_BY_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/findClientById?id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"findClientById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_BY_ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/updateClientById/?Id=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"updateClientById",
+						""
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api-jpa-h2/updateClientById/?Id=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api-jpa-h2",
+						"updateClientById",
+						""
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "auth_key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{email_key}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"var uID = pm.collectionVariables.get(\"userId\");",
+					"if(!uID)",
+					"    pm.collectionVariables.set(\"userId\", pm.variables.replaceIn('{{$guid}}'));",
+					"    ",
+					"var emailId = pm.collectionVariables.get(\"email_key\");",
+					"if (!emailId) {",
+					"    pm.collectionVariables.set(\"email_key\", pm.variables.replaceIn('{{$randomEmail}}'));",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"var template = `",
+					"    <!--showdown for converting md to html-->",
+					"    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js\"></script>",
+					"    <script type=\"text/javascript\">",
+					"        function getContent(orig){",
+					"            var converter = new showdown.Converter(), text = orig, html = converter.makeHtml(text);",
+					"            return html;",
+					"        }",
+					"    </script>",
+					"    ",
+					"    <!--syntax highlighting-->",
+					"    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/default.min.css\">",
+					"    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js\"></script>",
+					"    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/googlecode.min.css\">",
+					"    ",
+					"    <!--generic styles-->",
+					"    <style type=\"text/css\">",
+					"    body { background-color: white; }",
+					"    #notes p, #next p {padding-left:20px; border-left:2px solid #7D728E; }",
+					"    #notes blockquote p, #next blockquote p { border-left: none; background-color: #E7F0FF; color: #222; padding: 10px; }",
+					"    #notes, #next {padding-right:20px;}",
+					"    img {max-width:600px; padding-left:20px; padding-bottom:20px;}",
+					"    h4 {color:#6D7F91;}",
+					"    #intro, #notes, #next {color:#2B3B41;}",
+					"    </style>",
+					"",
+					"    <h3 style=\"color: {{status}}\">{{response.tutorial.title}}</h3>",
+					"    ",
+					"    <div id=\"intro\"></div>",
+					"",
+					"    <div id=\"notes\"></div>",
+					"    ",
+					"    {{#if response.tutorial.next}}",
+					"    <h4>Next Step</h4>",
+					"    <div id=\"next\"></div>",
+					"    ",
+					"    {{/if}}",
+					"    ",
+					"    <script type=\"text/javascript\">",
+					"        if(\"{{response.tutorial.rip}}\".length>0)",
+					"            document.write(getContent(\"{{response.tutorial.rip}}\"));",
+					"    </script>",
+					"    ",
+					"    <script type=\"text/javascript\">",
+					"        if(\"{{response.tutorial.pic}}\".length>0)",
+					"            document.write(\"<img src='{{response.tutorial.pic}}' alt='postman steps'/>\");",
+					"    </script>",
+					"",
+					"    <!--content to process before rendering-->",
+					"    <script type=\"text/javascript\">",
+					"        pm.getData(function(error, data) {",
+					"            var tut = data.response.tutorial;",
+					"            if(tut){",
+					"                if(tut.steps){",
+					"                    var i; ",
+					"                    var infoArray = tut.steps;",
+					"                    var notes=\"<div id='notes'>\";",
+					"                    for(i=0; i<infoArray.length; i++){",
+					"                        notes+=getContent(infoArray[i].note);",
+					"                        if(infoArray[i].raw_data){",
+					"                            notes+=\"<pre style='padding-left:20px'><code class='json'>\"+JSON.stringify(infoArray[i].raw_data, null, 2)+\"</code></pre>\";",
+					"                        }",
+					"                        if(infoArray[i].js_code){",
+					"                            var c;",
+					"                            notes+=\"<pre style='padding-left:20px'><code class='js'>\";",
+					"                            for(c=0; c<infoArray[i].js_code.length; c++)",
+					"                                notes+=infoArray[i].js_code[c]+\"<br/>\";",
+					"                            notes+=\"</code></pre>\";",
+					"                        }",
+					"                        if(infoArray[i].ref_data){",
+					"                            notes+=\"<pre style='padding-left:20px'><code class='json'>\"+JSON.stringify(data.response[infoArray[i].ref_data], null, 2)+\"</code></pre>\";",
+					"                        }",
+					"                        if(infoArray[i].pic)",
+					"                            notes+=\"<img src='\"+infoArray[i].pic+\"' alt='postman steps'/>\";",
+					"                    }",
+					"                    notes+=\"</div>\"",
+					"                    document.getElementById(\"notes\").innerHTML=notes;",
+					"                }",
+					"                document.getElementById(\"intro\").innerHTML=getContent(tut.intro);",
+					"                if(tut.next){",
+					"                    var nextDiv=document.getElementById(\"next\");",
+					"                    var n;",
+					"                    var nextContent=\"\";",
+					"                    var nextArray=tut.next;",
+					"                    for(n=0; n<nextArray.length; n++){",
+					"                        nextContent+=getContent(nextArray[n].step);",
+					"                        if(nextArray[n].raw_data){",
+					"                            nextContent+=\"<pre style='padding-left:20px'><code class='json'>\"+JSON.    stringify(nextArray[n].raw_data, null, 2)+\"</code></pre>\";",
+					"                        }",
+					"                        if(nextArray[n].js_code){",
+					"                            var c;",
+					"                            nextContent+=\"<pre style='padding-left:20px'><code class='js'>\";",
+					"                            for(c=0; c<nextArray[n].js_code.length; c++)",
+					"                                nextContent+=nextArray[n].js_code[c];",
+					"                            nextContent+=\"</code></pre>\";",
+					"                        }",
+					"                        if(nextArray[n].pic)",
+					"                            nextContent+=\"<img src='\"+nextArray[n].pic+\"' alt='postman steps'/>\";",
+					"                    }",
+					"                    nextDiv.innerHTML=getContent(nextContent);",
+					"                }",
+					"            }",
+					"            hljs.initHighlighting();",
+					"        });",
+					"    </script>",
+					"`;",
+					"if (pm.response.headers.get(\"Content-Type\").includes(\"json\")) {",
+					"  pm.visualizer.set(template, {",
+					"    response: pm.response.json(),",
+					"    status: (\"\" + pm.response.code).startsWith(\"4\") ? \"#cc0000\" : \"#FF6C37\"",
+					"  });",
+					"} else if (pm.response.headers.get(\"Content-Type\").includes(\"html\")) {",
+					"  pm.visualizer.set(`{{info}}`, {",
+					"    info:",
+					"      \"Hmm this seems to be HTML and not JSON - you might have hit an invalid endpoint - undo your changes, or close the request without saving and try opening / sending it again!\"",
+					"  });",
+					"}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "apiUrl",
+			"value": "roan-west-trouser.glitch.me"
+		},
+		{
+			"key": "userId",
+			"value": ""
+		},
+		{
+			"key": "email_key",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
