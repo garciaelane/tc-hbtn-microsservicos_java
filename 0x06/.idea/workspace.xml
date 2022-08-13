@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e91be8a-e64b-4d2d-bf84-68beb9488dbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/UserAPI/UserApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/controllerUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/exception/CPFException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/exception/ExceptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/exception/UserErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/exception/UserIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/com/example/user/exception/UserNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/UserAPI/UserApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/controllerUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/exception/CPFException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/exception/ExceptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/exception/UserErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/exception/UserIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/main/java/com/example/user/exception/UserNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-rest-userController/src/test/java/com/example/user/UserApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/UserAPI/UserApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/controllerUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/exception/CPFException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/exception/ExceptionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/exception/UserErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/exception/UserIdException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/exception/UserNameException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-userController/UserAPI/src/test/java/com/example/user/UserApiApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DHEk3vmfsQJo43Ov7x697wVk8V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/elanegarcia/reposTechCamps/tc-hbtn-microsservicos_java/0x06"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user/UserAPI" />
+      <recent name="$PROJECT_DIR$/api-rest-userController/UserAPI/src/main/java/com/example/user" />
+      <recent name="$PROJECT_DIR$/api-rest-userController" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e91be8a-e64b-4d2d-bf84-68beb9488dbf" name="Changes" comment="" />
+      <created>1660347749059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660347749059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
